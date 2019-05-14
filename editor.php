@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -13,9 +13,20 @@
 </head>
 
 <body>
-    <div class="d-flex flex-row flex-grow-1 align-items-center header" style="padding-left: 15px;padding-bottom: 11px;padding-top: 11px;">
-        <h1 class="display-4 text-uppercase text-center align-items-center align-content-center align-self-center m-auto" style="font-family: Actor, sans-serif;font-size: 22px;">PocketMine Plugin Maker</h1>
-        <div class="mx-auto"><button class="btn btn-primary text-center float-right flex-row mx-auto" id="header-button" type="button">New Project</button><button class="btn btn-primary text-center float-right flex-row" id="header-button" type="button" style="margin-right: 14px;">Save Project</button></div>
+    <?php
+    include "navbar.php";
+    echo getNavbar(ADVANCED_NAVBAR);
+    ?>
+    <div>
+        <form class="description-form" style="margin-right: 20%;margin-top: 53px;margin-left: 20%;padding-bottom: 0;">
+            <h4 style="font-family: Actor, sans-serif;font-size: 21px;padding-bottom: 6px;">Plugin description</h4>
+            <input class="form-control" type="text" placeholder="PluginName" style="margin-bottom: 5px;">
+            <input class="form-control" type="text" placeholder="Version" style="margin-bottom: 5px;">
+            <input class="form-control" type="text" placeholder="Author" value="VixikHD" readonly="" style="margin-bottom: 5px;">
+            <input class="form-control" type="text" placeholder="Description" style="margin-bottom: 5px;">
+            <input class="form-control" type="text" placeholder="Api" value="3.0.0" style="margin-bottom: 12px;">
+            <button class="btn btn-primary" type="button" action="src=&quot;">Next step</button>
+        </form>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
