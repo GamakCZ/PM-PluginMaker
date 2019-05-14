@@ -1,0 +1,19 @@
+.header {
+  background: linear-gradient(127deg, #0057ff, rgb(0,178,255));
+  color: white;
+}
+
+.display-4 {
+  font-style: Arial, sans-serif;
+}
+
+#header-button {
+  background: rgba(0,0,0,0);
+}
+
+.description-form {
+}
+
+.form-control {
+}
+
