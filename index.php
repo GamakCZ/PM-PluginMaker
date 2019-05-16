@@ -18,8 +18,9 @@
     echo getNavbar(DEFAULT_NAVBAR);
     ?>
     <div>
-        <form action="editor.php" method="get" class="description-form" style="margin-right: 20%;margin-top: 53px;margin-left: 20%;padding-bottom: 0;">
+        <form action="editor.php" method="post" class="description-form" style="margin-right: 20%;margin-top: 53px;margin-left: 20%;padding-bottom: 0;">
             <h4 style="font-family: Actor, sans-serif;font-size: 21px;padding-bottom: 6px;">Plugin description</h4>
+            <input name="id" type="hidden" value="0001">
             <input name="name" class="form-control" type="text" placeholder="PluginName" style="margin-bottom: 5px;">
             <input name="version" class="form-control" type="text" placeholder="Version" style="margin-bottom: 5px;">
             <input name="author" class="form-control" type="text" placeholder="Author" value="VixikHD" readonly="" style="margin-bottom: 5px;">

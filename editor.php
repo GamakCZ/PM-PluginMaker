@@ -1,4 +1,26 @@
-<!DOCTYPE html>
+<?php
+// data handling
+if(empty($_POST) || !isset($_POST["id"])) {
+    return;
+}
+
+switch ($id = $_POST["id"]) {
+    case "0001":
+        array_shift($_POST);
+        $description = $_POST;
+        // creating new project
+        include "src/vixikhd/pluginmaker/DataChecker.php";
+
+        $valid = \vixikhd\pluginmaker\DataChecker::checkPluginDescription($description);
+        setcookie("pm-valid", $valid);
+        setcookie("pm-description", serialize($description));
+        break;
+    case "0002":
+        var_dump($_SESSION);
+        break;
+}
+?>
+
 <html lang="en">
 
 <head>
@@ -14,20 +36,25 @@
 
 <body>
     <?php
+    // nav
     include "navbar.php";
     echo getNavbar(ADVANCED_NAVBAR);
+
+    // other
+    if($_COOKIE["pm-valid"] != true) {
+        echo "<h4>Error 501 - Invalid description</h4>";
+        return;
+    }
+
+    $description = unserialize($_COOKIE["pm-description"]);
+    file_put_contents(($path = getcwd() . DIRECTORY_SEPARATOR . "projects" . DIRECTORY_SEPARATOR . "json" . time()), json_encode([
+        "description" => $description
+    ]));
+
+    session_create_id("test");
+    var_dump($_SESSION);
+    echo file_get_contents(getcwd() . DIRECTORY_SEPARATOR . "type-select.html");
     ?>
-    <div>
-        <form class="description-form" style="margin-right: 20%;margin-top: 53px;margin-left: 20%;padding-bottom: 0;">
-            <h4 style="font-family: Actor, sans-serif;font-size: 21px;padding-bottom: 6px;">Plugin description</h4>
-            <input class="form-control" type="text" placeholder="PluginName" style="margin-bottom: 5px;">
-            <input class="form-control" type="text" placeholder="Version" style="margin-bottom: 5px;">
-            <input class="form-control" type="text" placeholder="Author" value="VixikHD" readonly="" style="margin-bottom: 5px;">
-            <input class="form-control" type="text" placeholder="Description" style="margin-bottom: 5px;">
-            <input class="form-control" type="text" placeholder="Api" value="3.0.0" style="margin-bottom: 12px;">
-            <button class="btn btn-primary" type="button" action="src=&quot;">Next step</button>
-        </form>
-    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>

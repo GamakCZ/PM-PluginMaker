@@ -10,9 +10,9 @@ define("ADVANCED_NAVBAR", 1);
 function getNavbar(int $type = DEFAULT_NAVBAR): string {
     try {
         if($type === DEFAULT_NAVBAR)
-            return file_get_contents(getcwd() . DIRECTORY_SEPARATOR . "html" . DIRECTORY_SEPARATOR . "empty-navbar.html");
+            return file_get_contents(getcwd() . DIRECTORY_SEPARATOR . "empty-navbar.html");
         else
-            return file_get_contents(getcwd() . DIRECTORY_SEPARATOR . "html" . DIRECTORY_SEPARATOR . "navbar.html");
+            return file_get_contents(getcwd() . DIRECTORY_SEPARATOR . "navbar.html");
     }
     catch (Exception $exception) {
         return "";
