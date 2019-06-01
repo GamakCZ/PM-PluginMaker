@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cca7ea8e-ee3c-4733-9ec1-0bff58416972" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/vixikhd/pluginmaker/DataChecker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vixikhd/pluginmaker/InvalidProjectException.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vixikhd/pluginmaker/PluginMaker.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vixikhd/pluginmaker/skeleton/SkeletonData.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type-select.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor.php" beforeDir="false" afterPath="$PROJECT_DIR$/editor.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/empty-navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/empty-navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pluginsettings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/restet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="31" />
+              <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -36,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/editor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+            <state relative-caret-position="838">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
             </state>
           </provider>
         </entry>
@@ -47,29 +35,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
               <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-              <folding>
-                <element signature="n#style#0;n#form#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h4#0;n#form#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#select#0;n#form#0;n#div#1;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vixikhd/pluginmaker/DataChecker.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="81" selection-start-line="26" selection-start-column="81" selection-end-line="26" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/vixikhd/pluginmaker/PluginMaker.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -119,9 +84,9 @@
         <option value="$PROJECT_DIR$/plugin_type_select.html" />
         <option value="$PROJECT_DIR$/src/vixikhd/pluginmaker/DataChecker.php" />
         <option value="$PROJECT_DIR$/navbar.html" />
+        <option value="$PROJECT_DIR$/type-select.html" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/editor.php" />
-        <option value="$PROJECT_DIR$/type-select.html" />
       </list>
     </option>
   </component>
@@ -138,7 +103,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,6 +142,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -221,18 +186,20 @@
       <workItem from="1557843752284" duration="3913000" />
       <workItem from="1557859696863" duration="3155000" />
       <workItem from="1557942570675" duration="3051000" />
-      <workItem from="1558031227041" duration="3530000" />
+      <workItem from="1558031227041" duration="4257000" />
+      <workItem from="1558117217666" duration="641000" />
+      <workItem from="1558210279162" duration="569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13649000" />
+    <option name="totallyTimeSpent" value="15586000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -283,12 +250,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/pluginsettings.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/restet.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/pluginsettings.js" />
+    <entry file="file://$PROJECT_DIR$/js/restet.js" />
     <entry file="file://$PROJECT_DIR$/assets/css/Footer-Dark.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -364,13 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="4" selection-end-line="20" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/vixikhd/pluginmaker/PluginMaker.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-391">
@@ -385,22 +341,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/projects/json1558034950" />
+    <entry file="file://$PROJECT_DIR$/projects/json1558034974" />
+    <entry file="file://$PROJECT_DIR$/projects/json1558035107" />
+    <entry file="file://$PROJECT_DIR$/projects/json1558035135" />
+    <entry file="file://$PROJECT_DIR$/projects/json1558035172" />
+    <entry file="file://$PROJECT_DIR$/projects/json1558035194" />
+    <entry file="file://$PROJECT_DIR$/projects/json1558035207" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/type-select.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#form#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h4#0;n#form#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#select#0;n#form#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/editor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="52" column="6" lean-forward="true" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
+        <state relative-caret-position="838">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
